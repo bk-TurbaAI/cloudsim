@@ -13,11 +13,7 @@ public class UtilizationModelPlanetLabInMemoryExtended extends UtilizationModelP
     public UtilizationModelPlanetLabInMemoryExtended(String inputPath, double schedulingInterval) throws NumberFormatException, IOException {
         super(inputPath, schedulingInterval);
     }
-
-    public UtilizationModelPlanetLabInMemoryExtended(String inputPath, double schedulingInterval, int dataSamples) throws NumberFormatException, IOException {
-        super(inputPath, schedulingInterval, dataSamples);
-    }
-
+    
     /*
      * (non-Javadoc)
      * @see cloudsim.power.UtilizationModel#getUtilization(double)
